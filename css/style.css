@@ -1,0 +1,16 @@
+body {
+    background-color: rebeccapurple;
+    font-family: cursive;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkcyan;
+    list-style: none;
+
+}
+
+li:hover {
+    background-color:aquamarine;
+}
