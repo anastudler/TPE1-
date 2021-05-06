@@ -10,6 +10,9 @@
   <>
     <header>
       <div class="titulo">
+        <div >
+          <img class= "logo" src="images/logobiblioteca.png" alt="logo">
+      </div>
         <h1>Biblioteca Popular de Tandil</h1>
       </div>
       <div>
@@ -20,7 +23,7 @@
         </ul>
       </div>
     </header>
-    <div>
+    <div class="formulario">
       <form action="">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" value="" />
@@ -30,12 +33,14 @@
         <input type="email" name="email" id="" />
          
         <!-- Preguntar si dejamos el Captcha dentro del form, o si va dentro de otro. -->
-        <label for="Captcha">Captcha:</label>
-        <input type="text" name="captcha" id="" value="345" />
-        <label for="inputCaptcha">Ingresar Captcha</label>
-        <input type="text" name="captcha" id="input-captcha" />
-        <button type="button" id="btn-captcha">Captcha</button>
-        <h3 id="correcto"></h3>
+        <div class="captcha">
+          <label for="Captcha">Captcha:</label>
+          <input type="text" name="captcha" id="captcha" value="Mr6F5" />
+          <label for="inputCaptcha">Ingresar Captcha</label>
+          <input type="text" name="captcha" id="input-captcha" value=""/>
+          <button type="button" id="btn-captcha">Captcha</button>
+          <h3 id="correcto"></h3>
+        </div>
         
 
         <input type="submit" value="Enviar" />
