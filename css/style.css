@@ -1,31 +1,39 @@
 body {
-    background-color: rgb(96, 88, 209);
+    background-color: #766fd4;
     font-family: cursive;
 }
 
 .titulo {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .logo {
     width: 20%;
-    
+
 }
 
 .menu {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(5, 172, 172);
+    background-color:  #67ce92bd;
     list-style: none;
+    padding: 10px;
+}
 
+.menu li a {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration-line: none;
+    padding: 5px;
 }
 
 .menu li:hover {
-    background-color:aquamarine;
+    background-color: aquamarine;
 }
 
-.biblioteca{
+.biblioteca {
     width: 100%;
 }
 
@@ -33,27 +41,31 @@ body {
 th {
     background-color: #67ce92bd;
     color: rgb(223, 238, 232);
-  }
-  
-  tbody {
-    color: rgb(223, 238, 232);
-  }
-  
+}
 
-  table, td, tr {
+tbody {
+    color: rgb(223, 238, 232);
+}
+
+
+table, td, tr {
     border: 2px solid black;
     border-collapse: collapse;
-  }
+}
 
-  table{
-      width: 100%;
-  }
+table {
+    width: 100%;
+}
 
-  .formulario{
-      display: flex;
-  }
+.contenedor-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       
+}
 
-  .captcha{
-      display: flex;
-  }
-
+.captcha {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    }

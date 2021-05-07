@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Biblioteca</title>
   </head>
-  <>
     <header>
       <div class="titulo">
         <div >
@@ -23,16 +22,18 @@
         </ul>
       </div>
     </header>
-    <div class="formulario">
-      <form action="">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" value="" />
-        <label for="">Apellido:</label>
-        <input type="text" name="apellido" value="" />
-        <label for="email">Mail:</label>
-        <input type="email" name="email" id="" />
-         
-        <!-- Preguntar si dejamos el Captcha dentro del form, o si va dentro de otro. -->
+    <div class="contenedor-formulario">
+      <div class="formulario">
+
+        <form action="">
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" value="" />
+          <label for="">Apellido:</label>
+          <input type="text" name="apellido" value="" />
+          <label for="email">Mail:</label>
+          <input type="email" name="email" id="" />
+          
+        </div>
         <div class="captcha">
           <label for="Captcha">Captcha:</label>
           <input type="text" name="captcha" id="captcha" value="Mr6F5" />
@@ -42,10 +43,10 @@
           <h3 id="correcto"></h3>
         </div>
         
-
         <input type="submit" value="Enviar" />
       </form>
-    </div>
+          
+      </div>
     <div>
 
     </div>
